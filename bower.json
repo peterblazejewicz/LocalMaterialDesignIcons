@@ -1,0 +1,24 @@
+{
+  "name": "LocalMaterialDesignIcons",
+  "version": "1.0.0",
+  "homepage": "https://github.com/peterblazejewicz/LocalMaterialDesignIcons",
+  "authors": [
+    "Peter Blazejewicz"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-icons": "^2.0.0"
+  },
+  "overrides": {
+    "material-design-icons": {
+      "main": "iconfont/MaterialIcons-Regular{.eot,.ttf,.woff,.woff2}"
+    }
+  }
+}

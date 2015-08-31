@@ -1,0 +1,24 @@
+{
+  "name": "local-material-design-icons",
+  "version": "1.0.0",
+  "description": "A boilerplate showing use of locally hosted Material Design Icons in ASP.NET 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterblazejewicz/LocalMaterialDesignIcons.git"
+  },
+  "author": "@blazejewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterblazejewicz/LocalMaterialDesignIcons/issues"
+  },
+  "homepage": "https://github.com/peterblazejewicz/LocalMaterialDesignIcons#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-main-bower-files": "^1.2.1",
+    "rimraf": "^2.4.3"
+  }
+}

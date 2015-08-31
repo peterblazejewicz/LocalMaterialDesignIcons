@@ -17,10 +17,8 @@ namespace LocalMaterialDesignIcons
 
         public void Configure(IApplicationBuilder app)
         {
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }

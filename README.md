@@ -11,7 +11,7 @@ This will install ASP.NET 5 dependencies and also install `Material Design Icons
 
 To run web site execute:
 ```
-dnx . kestrel
+dnx kestrel
 ```
 
 ## Static files handling in ASP.NET 5
